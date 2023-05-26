@@ -1,7 +1,8 @@
-#ifndef main.h
-#define main.h
+#ifndef MAIN_H_
+#define MAIN_H_
 
-int _putchar(char);
+int _putchar(char c);
+int main(void);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
