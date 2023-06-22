@@ -1,22 +1,21 @@
 #include "main.h"
 
-
-
 /**
- * _isdigit - check for digits
+ * _memcpy - runs to copy src to dest
+ * @dest: string to be copied to
+ * @src: string to be copied
+ * @n: number of bytes
  *
- * @c: checks if c is a digit
- *
- * Return: 1 if c is a digit, 0 if otherwise
+ * Return: dest
  */
-int _isdigit(int c)
+
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	if (c >= '0' && c <= '9')
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
 	{
-		return (1);
+		dest[i] = src[i];
 	}
-	else
-	{
-		return (0);
-	}
+	return (dest);
 }

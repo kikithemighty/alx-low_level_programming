@@ -1,6 +1,8 @@
 #include "main.h"
+
+
 /**
- * _isdigit - check for digits
+ * _isdigit - checks for digits
  *
  * @c: checks if c is a digit
  *

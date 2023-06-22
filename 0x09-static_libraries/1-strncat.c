@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates 2 strings
+ * _strncat - concatenateson on only 2 strings
  * @dest: string to be appended
  * @src: string to append
  * @n: no. of bytes from srs to use
